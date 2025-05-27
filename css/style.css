@@ -1,0 +1,16 @@
+.nav ul{
+    display: flex; /*giúp ngang hàng giữa các item*/
+    justify-content: space-around; /*để dùng đc justify-content, trước đó phải dùng display flex, khoảng cách giữa các item*/
+    list-style: none; /*kiểu dáng của list*/
+    
+}
+
+.nav{
+    background-color: aliceblue; /* chỉnh màu nền*/
+    width: 100%;
+}
+
+.nav a{
+    color: brown; /*đổi màu chữ  */
+    text-decoration: underline; /*gạch dưới chữ*/
+}
